@@ -1,15 +1,10 @@
-.title {
+.logo {
   font-size: 60px;
-}
-.title {
   font-family: murka;
-}
-.title {
   background-color: #96dc5e;
-}
-.title {
   text-align: center;
 }
+
 
 .slider {
   width: 95%;
@@ -58,13 +53,9 @@
   }
 }
 
-.question {
+h1 {
   font-size: 40px;
-}
-.question {
   font-family: murka;
-}
-.question {
   text-align: center;
 }
 
@@ -78,7 +69,7 @@
   font-family: sans-serif;
 }
 
-#footer {
+.footer {
   background-color: grey;
 }
 .pa {
@@ -88,7 +79,7 @@
   color: white;
 }
 
-#footer0 {
+.footer0 {
   background-color: grey;
 }
 
