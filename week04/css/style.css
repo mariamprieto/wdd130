@@ -1,0 +1,124 @@
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+h1,h2,h3,p{
+  color: white;
+  font-family: muka;
+  
+}
+
+.name{
+  text-align: center;
+}
+
+header,footer{
+	margin: 10px;
+	padding: 20px;
+	border: 1px solid #3F5C27;
+	background-color :#C0E1A4 ;
+	box-shadow: 0 0 30px #777;
+  text-align: left;
+}
+
+main {
+	margin: 10px;
+	padding: 20px;
+	border: 1px solid #3F5C27;
+	background-color: #3F5C27;
+	box-shadow: 0 0 30px #777;
+}
+
+
+ul{
+  list-style: none;
+}
+
+.menu li a{
+  
+  background-color:#3F5C27 ;
+  color:white;
+  text-decoration: none;
+  padding: 2px 30px;
+  display:block;
+  
+}
+
+.menu li a:hover{
+ background-color: #C0E1A4;
+ color:black
+}
+.menu > li{
+  float:left;
+
+}
+
+.copyrigth{
+  color:black;
+  font-size: 14px;
+
+}
+
+.socialmedia{
+  margin-top: -35px;
+  float:right;
+  ;
+  
+}
+
+.page{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+
+
+.slider {
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+}
+.slider ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  animation: cambio 8s infinite alternate;
+}
+.slider li {
+  width: 100%;
+  list-style: none;
+}
+
+.slider img {
+  width: 100%;
+}
+
+@keyframes cambio {
+  0% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: 0;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -100%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -200%;
+  }
+  95% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
