@@ -7,7 +7,7 @@ body{
 h1,h2,h3,p{
   color: white;
   font-family: muka;
-  
+    
 }
 
 .name{
@@ -25,7 +25,7 @@ header,footer{
 
 main {
 	margin: 10px;
-	padding: 20px;
+	padding: 30px;
 	border: 1px solid #3F5C27;
 	background-color: #3F5C27;
 	box-shadow: 0 0 30px #777;
@@ -41,19 +41,28 @@ ul{
   background-color:#3F5C27 ;
   color:white;
   text-decoration: none;
-  padding: 2px 30px;
+  font-size: 20px;
+  font-family:muka; 
+  padding: 2px 20px;
+
   display:block;
   
 }
 
 .menu li a:hover{
  background-color: #C0E1A4;
- color:black
-}
+ color:black;
+ font-size: 20px;
+ font-family: muka;
+ }
 .menu > li{
   float:left;
 
 }
+
+
+
+
 
 .copyrigth{
   color:black;
