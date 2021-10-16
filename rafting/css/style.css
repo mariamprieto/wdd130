@@ -1,0 +1,183 @@
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.name{
+  color:black;
+  font-family: 'Mukta', sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+h2{
+  color: black;
+  font-family: 'Mukta', sans-serif;
+  text-align: center;
+  font-size: 25px;
+    
+}
+
+h3{
+  color: black;
+  font-family: 'Mukta', sans-serif;
+  font-size: 20px;
+}
+
+p{
+  color: black;
+  font-family: 'Mukta', sans-serif;
+  font-size: 16px;
+
+  margin-bottom: 110px;  
+}
+
+.name{
+  font-family: 'Mukta', sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+header,footer{
+	margin: 10px;
+	padding: 20px;
+	border: 1px solid #3F5C27;
+	background-color :#C0E1A4 ;
+	box-shadow: 0 0 30px #777;
+  text-align: left;
+}
+
+main {
+	margin: 10px;
+	padding: 30px;
+	border: 1px solid #3F5C27;
+	background-color: #3F5C27;
+	box-shadow: 0 0 30px #777;
+}
+
+
+ul{
+  list-style: none;
+}
+
+.menu li a{
+  
+  background-color:#3F5C27 ;
+  color:white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Mukta', sans-serif;
+  padding: 2px 20px;
+
+  display:block;
+  
+}
+
+.menu li a:hover{
+ background-color: #C0E1A4;
+ color:black;
+ font-size: 20px;
+ font-family: 'Mukta', sans-serif;
+ }
+
+
+.copyrigth{
+  color:black;
+  font-size: 16px;
+  font-family: 'Mukta', sans-serif;
+  margin-bottom: 20px ;
+  margin-top: 20px;
+
+}
+
+.socialmedia{
+  margin-top: -45px;
+  float:right;
+  ;
+  
+}
+
+.page{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.menu > li{
+  float:left;
+
+}
+
+.picture1{
+  float: left;
+  width: 300px;
+  margin-right:20px;
+  margin-bottom: 20px;
+}
+.picture2{
+  float: right;
+  width: 300px;
+  height: 240px;
+  margin-left:0px;
+  margin-bottom:0px;
+}
+
+.picture3{
+  float: left;
+  width: 200px;
+  height: 240px;
+  margin-right:20px;
+  margin-bottom: :20px;
+}
+section{
+  margin-bottom: 20px ;
+  margin-top: 20px;
+}
+
+.slider {
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+}
+.slider ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  animation: cambio 8s infinite alternate;
+}
+.slider li {
+  width: 100%;
+  list-style: none;
+}
+
+.slider img {
+  width: 100%;
+}
+
+@keyframes cambio {
+  0% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: 0;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -100%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -200%;
+  }
+  95% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
