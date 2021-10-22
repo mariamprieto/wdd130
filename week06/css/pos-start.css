@@ -154,17 +154,16 @@
 /* Activity 5 Styles */
 .content5 {
   /* Activity Five Container */
-  
-  height: 400px;
+    height: 400px;
 }
 .red5 {
   width: 600px;
-  height: 80px;
+  height: 50px;
   background-color: red;
   grid-column: 1/3;
 }
 .green5 {
-  width: 180px;
+  width: 200px;
   height: 180px;
   background-color: green;
   float:left;
@@ -174,45 +173,68 @@
 }
 .yellow5 {
   width: 559px;
-  height: 350px;
+  height: 300px;
   background-color: gold;
   padding-right: 20px;
   padding-left: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
-
+  font-size: 14px;
  
 }
 .blue5 {
   width: 600px;
-  height: 80px;
+  height: 50px;
   background-color: blue;
   grid-column: 1/3;
 }
 
 /* Activity 6 Styles */
 .content6 {
+  
   /* Activity Six Container */
+  display:grid;
+  
+  }
+
+.red6,.green6,.yellow6,.blue6{
+  position: relative;
 }
 .red6 {
-  width: 100px;
-  height: 100px;
+  width: 425px;
+  height: 125px;
   background-color: red;
+  top:50px;
+  left: 30px;
+  z-index: 1;
+  
+
 }
 .green6 {
-  width: 100px;
-  height: 100px;
+  width: 210px;
+  height: 160px;
   background-color: green;
+  top:175px;
+  left:30px;
+  z-index: 3;
+  
 }
 .yellow6 {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 265px;
   background-color: gold;
+  top:-90px;
+  left:410px;
+  z-index: 3;
+
 }
 .blue6 {
-  width: 100px;
-  height: 100px;
+  width: 400px;
+  height: 250px;
   background-color: blue;
+  top:-430px;
+  left:135px;
+  z-index: 2;
 }
 
 /* Do not change this container class */
