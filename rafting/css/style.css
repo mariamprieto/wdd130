@@ -18,7 +18,6 @@ header {
 }
 
 footer {
-  
   height: 80px;
   margin: 10px;
   padding: 20px;
@@ -125,7 +124,6 @@ ul {
   justify-items: center;
 }
 
-
 .subtopic2 {
   width: 400px;
   height: 30px;
@@ -140,7 +138,6 @@ ul {
   height: 370px;
   background-color: #96dc5e;
   text-align: center;
-  
 }
 
 .text2 {
@@ -167,9 +164,8 @@ ul {
 .picture3 {
   width: 400px;
   height: 450px;
-  background-color:#96dc5e;
+  background-color: #96dc5e;
   text-align: center;
-  
 }
 
 .text3 {
@@ -177,10 +173,8 @@ ul {
   font-family: "Mukta", sans-serif;
   font-size: 18px;
   text-align: justify;
-  
-  
 }
-.topic1{
+.topic1 {
   width: 920px;
   height: 500px;
   margin: 1rem auto;
@@ -191,7 +185,7 @@ ul {
   overflow: auto;
 }
 
-.topic2{
+.topic2 {
   width: 920px;
   height: 500px;
   margin: 1rem auto;
@@ -202,7 +196,7 @@ ul {
   overflow: auto;
 }
 
-.topic3{
+.topic3 {
   width: 920px;
   height: 650px;
   margin: 1rem auto;
