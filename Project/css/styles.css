@@ -1,0 +1,293 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color:Cornsilk;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border: solid SaddleBrown 5px;
+}
+
+header {
+  height: 200px;
+  margin: 10px;
+  padding: 20px;
+  border: 10px solid SaddleBrown;
+  background-color: RosyBrown;
+  box-shadow: 0 0 30px #777;
+}
+
+footer {
+  height: 80px;
+  margin: 10px;
+  padding: 20px;
+  border: 10px solid SaddleBrown;
+  background-color:RosyBrown;
+  box-shadow: 0 0 30px #777;
+}
+
+main {
+  margin: 10px;
+  padding: 30px;
+  border: 1px solid SaddleBrown;
+  background-color: Tan;
+  box-shadow: 0 0 30px #777;
+}
+
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+.name {
+  color: black;
+  font-family: "Mukta", sans-serif;
+  font-size: 45px;
+  text-align: center;
+}
+
+.menu li a {
+  background-color: LightGrey;
+  color:black;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Mukta", sans-serif;
+  padding: 20px 11px;
+  display: flex;
+  border: solid SaddleBrown 5px;
+  
+}
+
+.menu li a:hover {
+  background-color: SaddleBrown;
+  color: black;
+  font-size: 18px;
+  font-family: "Mukta", sans-serif;
+}
+
+.menu > li {
+  float: left;
+}
+
+ul {
+  list-style: none;
+}
+.copyrigth {
+  color: black;
+  font-size: 16px;
+  font-family: "Mukta", sans-serif;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.socialmedia {
+  margin-top: -45px;
+  float: right;
+}
+
+.site-name {
+  width:920px;
+  height:100px;
+  font-family: "Mukta", sans-serif;
+  border: 1px solid #777;
+  padding: 1rem;
+  clear: both;
+  overflow: auto;
+}
+
+.section1 {
+  width: 200px;
+  height: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+.text1 {
+  width: 200px;
+  font-family: "Mukta", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: justify;
+  margin-left: auto;
+  color: SaddleBrown;
+}
+
+.purpose-goal {
+  width: 920px;
+  height: 375px;
+  margin: 1rem auto;
+  font-family: "Mukta", sans-serif;
+  border: 1px solid #777;
+  padding: 1rem;
+  clear: both;
+  overflow: auto;
+}
+.content2{
+  height: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  align-items: center;
+  justify-items: center;
+  }
+
+.section2 {
+  width: 300px;
+  height: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+.picture2 {
+  width: 200px;
+}
+
+.text2 {
+  width: 400px;
+  font-family: "Mukta", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.audience {
+  width: 920px;
+  height: 375px;
+  margin: 1rem auto;
+  font-family: "Mukta", sans-serif;
+  border: 1px solid #777;
+  padding: 1rem;
+  clear: both;
+  overflow: auto;
+}
+.content3{
+  height: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  align-items: center;
+  justify-items: center;
+  }
+
+.section3 {
+  width: 350px;
+  height: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.text3 {
+  width: 400px;
+  font-family: "Mukta", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.scenarios {
+  width: 400px;
+  font-family: "Mukta", sans-serif;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.logo {
+  width: 920px;
+  height:230px;
+  font-family: "Mukta", sans-serif;
+  border: 1px solid #777;
+  padding: 1rem;
+  clear: both;
+  overflow: auto;
+  justify-items: center;
+  align-items: center;
+}
+
+.section4 {
+  width: 130px;
+  height: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+.text4 {
+  width: 200px;
+  font-family: "Mukta", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: auto;
+  }
+
+  .style {
+  width: 920px;
+  height:500px;
+  margin: 1rem auto;
+  font-family: "Mukta", sans-serif;
+  border: 1px solid #777;
+  padding: 1rem;
+  clear: both;
+  overflow: auto;
+}
+.content5{
+  height: 200px;
+  display: grid;
+   
+  }
+
+.section5 {
+  width: 200px;
+  height: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.Cornsilk {
+  width: 100px;
+  height: 100px;
+  background-color:Cornsilk;
+  position: relative;
+  border:5px solid SaddleBrown ;
+}
+.Tan {
+  width: 100px;
+  height: 100px;
+  background-color: Tan;
+  position: relative;
+  left:105px;
+  top:-110px;
+  border:5px solid SaddleBrown ;
+
+}
+.RosyBrown {
+  width: 100px;
+  height: 100px;
+  background-color: RosyBrown;
+  position: relative;
+  left: 212px;
+  top:-220px;
+  border:5px solid SaddleBrown ;
+}
+.SaddleBrown {
+  width: 100px;
+  height: 100px;
+  background-color: SaddleBrown;
+  position: relative;
+  left: 322px;
+  top:-330px;
+  border:5px solid SaddleBrown ;
+}
+
+.section6 {
+  width: 280px;
+  height: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.text6 {
+  width: 400px;
+  height: 100%;
+  font-family: "Mukta", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: auto;
+  background-color: blanchedalmond;
+  text-align: center;
+
+  }
