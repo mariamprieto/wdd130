@@ -56,6 +56,11 @@ p {
   padding: 1em;
 }
 
+ul li{
+  font-family: var(--paragraph-font);
+  padding: 1em;
+
+}
 .colors {
   width: 100%;
   min-width: 350px;
