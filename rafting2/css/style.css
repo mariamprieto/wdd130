@@ -6,6 +6,7 @@ body {
   background-color: #96dc5e;
   width: 100%;
   height: 100%;
+  font-family: "Mukta", sans-serif;
   }
 
 .content {
@@ -77,7 +78,7 @@ ul {
 
 /* style of Hero Image*/
   .slider {
-  width: 95%;
+  width: 100%;
   margin: auto;
   overflow: hidden;
   position: relative;
@@ -135,11 +136,17 @@ ul {
 }
 
 .text {
-  width: 100%;
-  height: 50px;
-  font-size: 40px;
+  font-size: 35px;
   color: azure;
+  
 }
+
+.container {
+  position: absolute;
+  left: 200px;
+  top: 150px;
+}
+
 
 
 .button-slider {
@@ -147,12 +154,12 @@ ul {
   height: 40px;
   background-color: #3f5c27;
   text-align: center;
-  margin-left: 160px;
+  margin-left: 150px;
   
 }
 
 .button-slider a {
-  font-family: "Mukta", sans-serif;
+  
   text-decoration: none;
   font-size: 20px;
   color: white;
@@ -165,7 +172,7 @@ footer {
   height: 80px;
   margin: 10px;
   padding: 20px;
-  border: 10px solid #9da597;
+  border:  5px solid #3f5c27;
   background-color: #c0e1a4;
   box-shadow: 0 0 30px #777;
 }
@@ -180,11 +187,15 @@ footer {
 
 .socialmedia {
   margin-top: -45px;
-  float: right;
+  display: flex;
+}
+.socialmedia  img{
+  width:20px;
+  height: 20px;
+  
 }
 
-
-
+/* style of main*/
 main {
   margin: 10px;
   padding: 30px;
@@ -193,147 +204,56 @@ main {
   box-shadow: 0 0 30px #777;
 }
 
+img{
+  width:450px;
+  height: 375px;
+}
+
 h2 {
-  color: black;
-  font-family: "Mukta", sans-serif;
+  color: white;
   text-align: center;
   font-size: 40px;
 }
 
-
-
-
-
-
-
-
 .content1 {
-  height: 400px;
+  height: 450px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 30px;
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .subtopic1 {
-  width: 400px;
-  height: 30px;
-  background-color: #8fa180;
-  border: 10px solid #96dc5e;
-  text-align: center;
-  font-size: 25px;
-}
-.picture1 {
-  width: 500px;
+  grid-row: 1/2;
+  grid-column:1/2;
+  
+ }
+
+.text1{
+  grid-column:1/2;
+  grid-row: 2/2;
+  text-align: justify;
 }
 
-.text1 {
-  width: 400px;
-  font-family: "Mukta", sans-serif;
-  font-weight: bold;
-  font-size: 18px;
-  text-align: justify;
+.picture05 {
+  grid-column: 2/3;
+  grid-row:1/3;
 }
 
 .content2 {
-  height: 400px;
+  height: 475px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 30px;
-  align-items: center;
-  justify-items: center;
+  
 }
 
 .subtopic2 {
-  width: 400px;
-  height: 30px;
-  margin-left: auto;
-  background-color: #8fa180;
-  border: 10px solid #96dc5e;
-  text-align: center;
-  font-size: 25px;
-}
-.picture2 {
-  width: 450px;
-  height: 370px;
-  background-color: #96dc5e;
-  text-align: center;
+  grid-column: 1/3;
 }
 
-.text2 {
-  width: 400px;
-  font-family: "Mukta", sans-serif;
-  font-weight: bold;
-  font-size: 18px;
+.text2{
   text-align: justify;
 }
-
-.content3 {
-  height: 420px;
-  display: grid;
-  justify-items: center;
-  align-items: center;
-}
-
-.subtopic3 {
-  height: 30px;
-  background-color: #8fa180;
-  border: 10px solid #96dc5e;
-  text-align: center;
-  font-size: 25px;
-}
-.picture3 {
-  width: 400px;
-  height: 450px;
-  background-color: #96dc5e;
-  text-align: center;
-}
-
-.text3 {
-  width: 900px;
-  font-family: "Mukta", sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  text-align: justify;
-}
-.topic1 {
-  width: 920px;
-  height: 500px;
-  margin: 1rem auto;
-  font-family: "Mukta", sans-serif;
-  border: 1px solid #777;
-  padding: 1rem;
-  clear: both;
-  overflow: auto;
-}
-
-.topic2 {
-  width: 920px;
-  height: 500px;
-  margin: 1rem auto;
-  font-family: "Mukta", sans-serif;
-  border: 1px solid #777;
-  padding: 1rem;
-  clear: both;
-  overflow: auto;
-}
-
-.topic3 {
-  width: 920px;
-  height: 650px;
-  margin: 1rem auto;
-  font-family: "Mukta", sans-serif;
-  border: 1px solid #777;
-  padding: 1rem;
-  clear: both;
-  overflow: auto;
-}
-
-
-
-.container {
-  position: absolute;
-  left: 80px;
-  top: 100px;
-}
-
-
