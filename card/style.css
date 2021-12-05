@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #8e9eab, #eef2f3);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 0.03em;
+  flex-wrap: wrap;
+}
+
+.content {
+  position: relative;
+}
+
+.content .card {
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0 5px 5px black;
+  overflow: hidden;
+  margin: 15px;
+  text-align: center;
+}
+
+.content-text {
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  box-shadow: -3px -10px 10px rgb(0 0 0 / 30%);
+  padding: 1rem;
+  border-radius: 0 0 1rem 1rem;
+  width: 400px;
+  height: 50%;
+}
+
+.content .card img {
+  width: 100%;
+  height: 50%;
+}
+
+.content .card h2 {
+  font-size: 22px;
+}
+
+.content-text p {
+  text-align: justify;
+  padding: 5px;
+}
+
+.content .card a {
+  text-decoration: none;
+
+  color: black;
+  font-weight: bold;
+  padding: 5px 7px;
+  border-radius: 10px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  font-size: 0.8rem;
+  background-color: #eee;
+}
+
+.content .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 2px 2px black;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.footer p {
+  font-size: 0.75rem;
+  font-variant: small-caps;
+  font-weight: 600;
+}
+
+.like {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: red;
+  border-radius: 50%;
+  color: #fff;
+  right: 30px;
+  top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+.like:hover {
+  transform: scale(0.5, 1);
+}
