@@ -1,34 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="This website provides information on the services that Collectsy Company offers in relation to the management of collections to reduce the aging of accounts receivable from contracting companies " />
-    <link type="text/css" rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This website provides information on the services that Collectsy Company offers in relation to the management of collections to reduce the aging of accounts receivable from contracting companies "
+    />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
     <title>Registration</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-
-        <img class="logo" src="images/logo.png" alt="Logo Company" />
-        <h1 class="name">Collectsy Company</h1>
-        <nav>
-            <ul class="menu">
-                <li><a href="home.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="registration.html"> Registration</a></li>
-            </ul>
-        </nav>
+      <img class="logo" src="images/logo.png" alt="Logo Company" />
+      <h1 class="name">Collectsy Company</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="registration.html"> Registration</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
+      <div class="hero-image">
+        <img src="images/management.jpg" class="heroimage" alt="heroimage" />
+        <div class="hero-text">
+          <h1>
+            REGISTRATION<br />
+            Our rates adapted at your own pace
+          </h1>
+          <button>Know our services</button>
+        </div>
+      </div>
 
+      <div class="registration">
+        <h2>Collectsy is synonymous of profitability</h2>
+        <p>
+          Subscribe! and start enjoying the services that Colletsy offers you at
+          very low prices and guaranteed quality. We work alongside you to take
+          care of your interests.
+        </p>
+        <img src="images/money.jpg" alt="services" />
+      </div>
+
+      <div class="form">
+        <form action="xxxx" method="get">
+          <ul>
+            <li>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="user_name" />
+            </li>
+            <li>
+              <label for="mail">E-mail:</label>
+              <input type="email" id="mail" name="user_email" />
+            </li>
+            <li>
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="venezuela">Venezuela</option>
+                <option value="alemania">Alemania</option>
+                <option value="eeuu">EEUU</option>
+                <option value="brazil">Brazil</option>
+                <option value="canada">Canada</option>
+              </select>
+            </li>
+            <li>
+              <label for="msg">Message:</label>
+              <textarea
+                id="msg"
+                name="user_message"
+                placeholder="Write here"
+              ></textarea>
+            </li>
+            <li>
+              <input type="submit" value="Submit" />
+            </li>
+          </ul>
+        </form>
+      </div>
     </main>
 
-    <footer>
-
-    </footer>
-</body>
-
+    <footer></footer>
+  </body>
 </html>

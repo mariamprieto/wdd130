@@ -1,65 +1,68 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 :root {
- 
-  --primary-color: #1D3557;
+  --primary-color: #1d3557;
   --secondary-color: #126782;
-  --accent1-color: #FD9E02;
-  --accent2-color: #8ECAE6;
+  --accent1-color: #fd9e02;
+  --accent2-color: #8ecae6;
 
- 
-  --heading-font: 'Alegreya Sans', sans-serif;
-  --paragraph-font: 'Open Sans', sans-serif;
+  --heading-font: "Alegreya Sans", sans-serif;
+  --paragraph-font: "Open Sans", sans-serif;
 
-  
-  --headline-color-on-white: #FD9E02; 
-  --headline-color-on-color: #F1FAEE; 
-  --paragraph-color-on-white: black; 
-  --paragraph-background-color: #1D3557;
+  --headline-color-on-white: #fd9e02;
+  --headline-color-on-color: #f1faee;
+  --paragraph-color-on-white: black;
+  --paragraph-background-color: #1d3557;
   --nav-link-color: white;
   --nav-background-color: #126782;
-  --nav-hover-link-color: #F1FAEE;
-  --nav-hover-background-color: #457B9D;
+  --nav-hover-link-color: #f1faee;
+  --nav-hover-background-color: #457b9d;
 }
-
-
 
 html {
   background-color: var(--secondary-color);
 }
-body {
-  max-width: 940px;
-  margin: 0 auto;
-  background-color: white;
-  padding: 1em;
-}
-img {
-  max-width: 100%;
-}
-h1, h2, h3, h4 {
-  font-family: var(--heading-font);
-  color: var(--headline-color-on-white);
-}
+
 header {
   padding: 1em;
   text-align: center;
   color: var(--paragraph-color-on-color);
   background-color: var(--paragraph-background-color);
 }
-header > h1, header > h2 {
+
+body {
+  max-width: 940px;
+  margin: 0 auto;
+  background-color: var(--nav-link-color);
+  padding: 1em 2em 1em 2em;
+}
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+}
+
+header > h1,
+header > h2 {
   color: var(--headline-color-on-color);
 }
 
 p {
   font-family: var(--paragraph-font);
-  padding: 1em;
+  text-align: justify;
 }
 
-li{
+li {
   font-family: var(--paragraph-font);
   padding: 1em;
   list-style: none;
+  text-align: justify;
 }
 
 .colors {
@@ -69,11 +72,15 @@ li{
   text-align: center;
 }
 .colors th {
-  background-color: white;
+  background-color: var(--nav-link-color);
+  font-family: var(--paragraph-font);
 }
-.colors td{
+.colors td {
   width: 25%;
   height: 3em;
+  font-family: var(--paragraph-font);
+  color: var(--nav-link-color);
+  font-weight: bold;
 }
 
 .primary {
@@ -85,11 +92,9 @@ li{
 .accent1 {
   background-color: var(--accent1-color);
 }
-.accent2{
+.accent2 {
   background-color: var(--accent2-color);
 }
-
-
 
 nav {
   background-color: var(--nav-background-color);
@@ -100,13 +105,13 @@ nav {
 nav > ul {
   list-style-type: none;
   display: flex;
-
 }
 nav a {
-  padding:1em;
+  padding: 1em;
   min-width: 70px;
 }
-nav a:link, nav a:visited {
+nav a:link,
+nav a:visited {
   color: var(--nav-link-color);
 }
 nav a:hover {
@@ -120,30 +125,35 @@ nav a:hover {
 
   grid-template-columns: repeat(6, 15%);
   grid-template-rows: 3em 1.5em 1.5em 3em;
-  grid-template-areas: ". . home home . ."
+  grid-template-areas:
+    ". . home home . ."
     ". . . top . ."
     ". left left right right ."
     "page2 page2 . . page3 page3";
 }
 .sitemap > div {
-
   text-align: center;
-
 }
 .sm-home {
   grid-area: home;
   background-color: #126782;
   line-height: 3em;
+  font-family: var(--paragraph-font);
+  color: var(--nav-link-color);
 }
 .sm-page2 {
   grid-area: page2;
   background-color: #126782;
   line-height: 3em;
+  font-family: var(--paragraph-font);
+  color: var(--nav-link-color);
 }
 .sm-page3 {
   grid-area: page3;
   background-color: #126782;
   line-height: 3em;
+  font-family: var(--paragraph-font);
+  color: var(--nav-link-color);
 }
 
 .top {
@@ -166,15 +176,11 @@ nav a:hover {
 footer {
   width: 100%;
   height: 50px;
-
-  background-color :  var(--primary-color);
-  
+  background-color: var(--primary-color);
 }
 
 .copyrigth {
   color: white;
-  
- 
 }
 
 .socialmedia {
