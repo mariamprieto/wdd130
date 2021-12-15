@@ -179,16 +179,22 @@ nav a:hover {
 }
 
 footer {
-  width: 100%;
-  height: 50px;
+  
   background-color: var(--primary-color);
+  display: grid;
+  grid-template-columns: 1fr 110px;
+ 
 }
 
 .copyrigth {
-  color: white;
+  color:var(--nav-link-color);
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 1rem;
+ 
 }
 
 .socialmedia {
-  margin-top: -58px;
-  float: right;
+  display: flex;
+  margin-top:10px;
 }
