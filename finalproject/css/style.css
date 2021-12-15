@@ -80,10 +80,10 @@ ul {
 .hero-text {
   text-align: center;
   position: absolute;
-  top: 30%;
+  top: 78%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: var(--accent1-color);
+  color: var(--nav-link-color);
 }
 
 .hero-text a {
