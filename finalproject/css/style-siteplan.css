@@ -5,18 +5,14 @@
   --secondary-color: #126782;
   --accent1-color: #fd9e02;
   --accent2-color: #8ecae6;
+  --headline-color-on-color: #f1faee;
+  --paragraph-color-on-white: black;
+    --nav-link-color: white;
 
   --heading-font: "Alegreya Sans", sans-serif;
   --paragraph-font: "Open Sans", sans-serif;
 
-  --headline-color-on-white: #fd9e02;
-  --headline-color-on-color: #f1faee;
-  --paragraph-color-on-white: black;
-  --paragraph-background-color: #1d3557;
-  --nav-link-color: white;
-  --nav-background-color: #126782;
-  --nav-hover-link-color: #f1faee;
-  --nav-hover-background-color: #457b9d;
+  
 }
 
 html {
@@ -26,8 +22,7 @@ html {
 header {
   padding: 1em;
   text-align: center;
-  color: var(--paragraph-color-on-color);
-  background-color: var(--paragraph-background-color);
+   background-color: var(--primary-color);
 }
 
 body {
@@ -46,7 +41,7 @@ h2,
 h3,
 h4 {
   font-family: var(--heading-font);
-  color: var(--headline-color-on-white);
+  color: var(--accent1-color);
 }
 
 
@@ -68,6 +63,7 @@ li {
   list-style: none;
   text-align: justify;
   font-size: 14px;
+  
 }
 
 .colors {
@@ -102,7 +98,7 @@ li {
 }
 
 nav {
-  background-color: var(--nav-background-color);
+  background-color: var(--secondary-color);
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
@@ -120,8 +116,8 @@ nav a:visited {
   color: var(--nav-link-color);
 }
 nav a:hover {
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+  color: var(--headline-color-on-color);
+  background-color: var(--secondary-color);
 }
 
 .sitemap {
