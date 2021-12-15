@@ -250,7 +250,7 @@ select {
   margin: 0.2rem 0.2rem;
   font-size: 20px;
   border-radius: 4px;
-  color: var(--accent1-color);
+  color: var(--nav-link-color);
   width: 90%;
   padding: 2px;
 }
