@@ -1,45 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="This website provides information on the services that Collectsy Company offers in relation to the management of collections to reduce the aging of accounts receivable from contracting companies "
-    />
-    <link type="text/css" rel="stylesheet" href="css/style.css" />
-    <title>Registration</title>
-  </head>
-  <body>
-    <header>
 
-        <img class="logo" src="images/logo_company.png" alt="Logo Company" />
-        <h1 class="name">Collectsy Company</h1>
-        <nav>
-            <ul class="menu">
-                <li><a href="home.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="registration.html"> Registration</a></li>
-                <li><a href="contact.html"> Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-      <div class="hero-image">
-        <img src="images/suscription.jpg" class="heroimage" alt="heroimage" />
-        <div class="hero-text">
-          <h1>
-            REGISTRATION<br />
-            Our rates adapted at your own pace
-          </h1>
-          <button>Know our services</button>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="This website provides information on the services that Collectsy Company offers in relation to the management of collections to reduce the aging of accounts receivable from contracting companies " />
+  <link type="text/css" rel="stylesheet" href="css/style.css" />
+  <title>Registration</title>
+</head>
+
+<body>
+  <header>
+
+    <img class="logo" src="images/logo_company.png" alt="Logo Company" />
+    <h1 class="name">Collectsy Company</h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="registration.html"> Registration</a></li>
+
+    </nav>
+  </header>
+  <main>
+    <div class="hero-image">
+      <img src="images/suscription.jpg" class="heroimage" alt="heroimage" />
+      <div class="hero-text">
+        <h2>
+          REGISTRATION<br />
+          Our rates adapted at your own pace
+        </h2>
+        <a href="services.html">Know our services</a>
       </div>
+    </div>
 
+    <h2 class="text-service"> Collectsy is synonymous of profitability</h2>
+    <hr>
+    <div class="content1">
       <div class="registration">
-        <h2>Collectsy is synonymous of profitability</h2>
-        <p>
+        <p class="text1">
           Subscribe! and start enjoying the services that Colletsy offers you at
           very low prices and guaranteed quality. We work alongside you to take
           care of your interests.
@@ -51,51 +52,64 @@
         <form action="xxxx" method="get">
           <ul>
             <li>
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="user_name" />
+              <label for="name">Name Company:</label>
+              <input type="text" id="name" name="name" />
             </li>
             <li>
               <label for="mail">E-mail:</label>
               <input type="email" id="mail" name="user_email" />
             </li>
+            <label for="name">Username:</label>
+            <input type="text" id="username" name="user_name" />
+            </li>
+            </li>
+            <label for="name">Password:</label>
+            <input type="text" id="password" name="password" />
+            </li>
             <li>
               <label for="country">Country</label>
               <select id="country" name="country">
+                <option value="select">Select one</option>
                 <option value="venezuela">Venezuela</option>
                 <option value="alemania">Alemania</option>
                 <option value="eeuu">EEUU</option>
                 <option value="brazil">Brazil</option>
                 <option value="canada">Canada</option>
+                <option value="chile">Chile </option>
               </select>
             </li>
             <li>
-              <label for="msg">Message:</label>
-              <textarea
-                id="msg"
-                name="user_message"
-                placeholder="Write here"
-              ></textarea>
+              <label for="services">Services</label>
+              <select id="services" name="services">
+                <option value="select">Select one</option>
+                <option value="venezuela">Bank collection</option>
+                <option value="alemania">Payment management</option>
+                <option value="eeuu">Payroll Discount</option>
+                <option value="brazil">Online Collection Systems</option>
+              </select>
             </li>
+            
             <li>
-              <input type="submit" value="Submit" />
+              <input type="submit" value="Suscription" />
             </li>
           </ul>
         </form>
       </div>
-    </main>
+  </main>
 
-    <footer>
-      
-        <p class="copyrigth">
-    
-            &copy;2021 | Collectsy Co | Maria Prieto | WDD130
-        </p>
-        <div class="socialmedia">
-            <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png" alt="facebook" /></a>
-            <a href="https://www.twitter.com" target="_blank"><img src="images/twitter.png" alt="twitter" /></a>
-            <a href="https://www.instagram.com" target="_blank"><img src="images/instagramlogo.png" alt="instagram" /></a>
-        </div>
-    
-    </footer>
-  </body>
+  <footer>
+
+    <p class="copyrigth">
+
+      &copy;2021 | Collectsy Co | Maria Prieto | WDD130
+    </p>
+    <div class="socialmedia">
+      <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png" alt="facebook" /></a>
+      <a href="https://www.twitter.com" target="_blank"><img src="images/twitter.png" alt="twitter" /></a>
+      <a href="https://www.instagram.com" target="_blank"><img src="images/instagramlogo.png" alt="instagram" /></a>
+    </div>
+
+  </footer>
+</body>
+
 </html>
